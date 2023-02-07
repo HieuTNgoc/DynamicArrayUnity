@@ -4955,7 +4955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8511b98cb1f4ca143b4954a1e3a5cffa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healtMax: 10
+  _healtMax: 5
   _speed: 6
   _jumpSpeed: 8
   _groundLayer:
@@ -4966,6 +4966,8 @@ MonoBehaviour:
   _bullet: {fileID: 5405529077688282799, guid: c131c6e5e410b494aaa848ed10cb3fb9, type: 3}
   _string_items: []
   _object_items: []
+  _hearts: []
+  _default_hearts: {fileID: 2094580733617372960, guid: 118cc47a04e06944989f35e0863bee49, type: 3}
 --- !u!1001 &1809638334
 PrefabInstance:
   m_ObjectHideFlags: 0

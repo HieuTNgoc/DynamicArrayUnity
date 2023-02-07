@@ -16,7 +16,6 @@ public class Player : MonoBehaviour
     [SerializeField] private List<string> _string_items;
     [SerializeField] private List<GameObject> _object_items;
 
-
     private float _health;
 
     private Rigidbody2D _rb;
@@ -32,10 +31,9 @@ public class Player : MonoBehaviour
         _cam = Camera.main;
 
         _health = _healtMax;
-        
+
         _string_items = new List<string>();
         _object_items = new List<GameObject>();
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
